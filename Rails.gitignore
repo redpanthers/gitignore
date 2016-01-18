@@ -1,0 +1,110 @@
+#----------------------------------------------------------------------------
+# Ignore these files when committing to a git repository.
+#
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+#
+# The original version of this file is found here:
+# https://github.com/redpanthers/gitignore/blob/master/files/Rails.gitignore
+#
+# Corrections? Improvements? Create a GitHub issue:
+# http://github.com/redpanthers/gitignore/issues
+#----------------------------------------------------------------------------
+
+# bundler state
+/.bundle
+/vendor/bundle/
+/vendor/ruby/
+
+# minimal Rails specific artifacts
+db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*
+/tmp/*
+
+# add /config/database.yml if it contains passwords
+# /config/database.yml
+
+# various artifacts
+**.war
+*.rbc
+*.sassc
+.redcar/
+.sass-cache
+/config/config.yml
+/coverage.data
+/coverage/
+/public/cache
+/public/stylesheets/compiled
+/public/system/*
+/spec/tmp/*
+/cache
+/capybara*
+/capybara-*.html
+/gems
+/specifications
+rerun.txt
+pickle-email-*.html
+.zeus.sock
+
+# scm revert files
+**.orig
+
+# Mac finder artifacts
+.DS_Store
+
+# Netbeans project directory
+/nbproject/
+
+# RubyMine project files
+.idea
+
+# Textmate project files
+/*.tmproj
+
+# vim artifacts
+**.swp
+
+# Environment files that may contain sensitive data
+.env
+.powenv
+
+# tilde files are usually backup files from a text editor
+*~
+
+# Ignore application configurations
+.chef
+.vagrant
+
+# Ignore local asset pipline cache files
+/public/assets
+
+# APPLICATION #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.psd
+*.ai
+*.ase
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
